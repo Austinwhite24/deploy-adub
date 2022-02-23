@@ -1,7 +1,18 @@
 h1 {
-    background-color: rgb(197, 36, 197);
-    color: aquamarine;
+    background-color: rgb(57, 208, 228);
+    color: black;
+    text-align: center;
 }
 h2 {
-    color: blue;
+    color: black;
+    background-color: rgb(57, 208, 228);
+    text-align: center;
+}
+html {
+    background-color: rgb(107, 110, 136);
+}
+.img {
+    border-radius: 5px;
+    display: flexbox;
+    
 }
