@@ -7,9 +7,11 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '../index.html'))
 })
 
-app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, '../main.css'))
-})
+app.use(express.static(path.join(__dirname, '../')))
+
+// app.get('/', function(req, res){
+//     res.sendFile(path.join(__dirname, '../main.css'))
+// })
 
 // app.get('/css', (req, res) => {
 //     res.sendFile(path.join(__dirname, '../main.css'))
