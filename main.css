@@ -13,6 +13,11 @@ html {
 }
 .img {
     border-radius: 5px;
-    display: flexbox;
+    /* display: flexbox; */
+    display: block;
     
+}
+.vid{
+    /* text-align: left; */
+   display: flex;
 }
