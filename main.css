@@ -1,23 +1,43 @@
 h1 {
-    background-color: rgb(57, 208, 228);
+    font-size: 80px;
+    font-family:fantasy ;
+    background-color: rgb(113, 186, 199);
     color: black;
     text-align: center;
 }
 h2 {
     color: black;
-    background-color: rgb(57, 208, 228);
+    background-color: rgb(113, 186, 199);
     text-align: center;
+    font-size: 25px;
+    font-family: monospace;
 }
 html {
-    background-color: rgb(107, 110, 136);
+    background-color: black;
 }
 .img {
     border-radius: 5px;
     /* display: flexbox; */
     display: block;
+    border-radius: 5px;
+    border: 5px solid rgb(113, 186, 199);
+    
     
 }
 .vid{
     /* text-align: left; */
    display: flex;
+}
+h3 {
+    color: black;
+    background-color: rgb(113, 186, 199);
+    text-align: center;
+    text-overflow: clip;
+}
+h4 {
+    color: black;
+    background-color: rgb(113, 186, 199);
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
 }
